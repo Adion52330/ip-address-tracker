@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+  /* z-index: 20; */
+  cursor: move;
+}
